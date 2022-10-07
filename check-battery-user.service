@@ -1,0 +1,5 @@
+[Unit]
+Description=check-battery
+
+[Service]
+ExecStart=/home/fred/.config/systemd/user/check_battery.sh
